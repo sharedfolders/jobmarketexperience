@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.container {
+  @apply p-3 w-fit flex flex-col border border-black/20 rounded-2xl;
+}
+
+.btn {
+  @apply font-bold text-white px-4 py-2 text-lg leading-6 rounded-3xl w-fit bg-[#004fcB] my-2 flex items-center gap-1;
+}
+
+.description p {
+  @apply font-normal leading-6 flex items-center text-gray-950;
+}
+
+.title {
+  @apply font-medium text-3xl leading-12 text-gray-950;
+}

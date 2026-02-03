@@ -1,0 +1,292 @@
+{
+  "upgrades": [
+    {
+      "id": "indeedApply",
+      "name": "Apply on Indeed",
+      "cost": 20,
+      "appPerClick": 1,
+      "appPerSecs": 0,
+      "unlockIndex": 0,
+      "active": false
+    },
+    {
+      "id": "linkedinApply",
+      "name": "Apply on LinkedIn",
+      "cost": 40,
+      "appPerClick": 1,
+      "appPerSecs": 0,
+      "unlockIndex": 1,
+      "active": false
+    },
+    {
+      "id": "personApply",
+      "name": "Apply in person",
+      "cost": 90,
+      "appPerClick": 1,
+      "appPerSecs": 0,
+      "unlockIndex": 2,
+      "active": false
+    },
+    {
+      "id": "plannedMails",
+      "name": "Planned emails",
+      "cost": 150,
+      "appPerClick": 0,
+      "appPerSecs": 4,
+      "unlockIndex": 3,
+      "active": false
+    },
+    {
+      "id": "linkedinPosts",
+      "name": "Corporate linkedin posts",
+      "cost": 300,
+      "appPerClick": 4,
+      "appPerSecs": 0,
+      "unlockIndex": 4,
+      "active": false
+    },
+    {
+      "id": "localNewsAds",
+      "name": "Ads in local newspaper",
+      "cost": 400,
+      "appPerClick": 0,
+      "appPerSecs": 4,
+      "unlockIndex": 5,
+      "active": false
+    },
+    {
+      "id": "jobDating",
+      "name": "Attend JobDating events",
+      "cost": 600,
+      "appPerClick": 8,
+      "appPerSecs": 0,
+      "unlockIndex": 6,
+      "active": false
+    },
+    {
+      "id": "appSenders",
+      "name": "Hire an application sender",
+      "cost": 800,
+      "appPerClick": 0,
+      "appPerSecs": 16,
+      "unlockIndex": 7,
+      "active": false
+    },
+    {
+      "id": "internships",
+      "name": "Apply to internships",
+      "cost": 1000,
+      "appPerClick": 16,
+      "appPerSecs": 8,
+      "unlockIndex": 8,
+      "active": false
+    },
+    {
+      "id": "lyingSausage",
+      "name": "Lie on your applications",
+      "cost": 1200,
+      "appPerClick": 10,
+      "appPerSecs": 10,
+      "unlockIndex": 9,
+      "active": false
+    },
+    {
+      "id": "regionalSearch",
+      "name": "Extend job search to the region",
+      "cost": 1400,
+      "appPerClick": 6,
+      "appPerSecs": 0,
+      "unlockIndex": 10,
+      "active": false
+    },
+    {
+      "id": "regionalAds",
+      "name": "Ads on regional TV channel",
+      "cost": 1800,
+      "appPerClick": 0,
+      "appPerSecs": 18,
+      "unlockIndex": 11,
+      "active": false
+    },
+    {
+      "id": "vibeSearching",
+      "name": "AI job searching assistant",
+      "cost": 2000,
+      "appPerClick": 0,
+      "appPerSecs": 60,
+      "unlockIndex": 12,
+      "active": false
+    },
+    {
+      "id": "ambidextrous",
+      "name": "Become ambidextrous",
+      "cost": 3000,
+      "appPerClick": 96,
+      "appPerSecs": 0,
+      "unlockIndex": 13,
+      "active": false
+    },
+    {
+      "id": "nationwide",
+      "name": "Extend job search to the country",
+      "cost": 4000,
+      "appPerClick": 84,
+      "appPerSecs": 0,
+      "unlockIndex": 14,
+      "active": false
+    },
+    {
+      "id": "nationalAds",
+      "name": "Extend job search to the country",
+      "cost": 6000,
+      "appPerClick": 0,
+      "appPerSecs": 120,
+      "unlockIndex": 15,
+      "active": false
+    },
+    {
+      "id": "illegalJobs",
+      "name": "Apply to illegal jobs",
+      "cost": 10000,
+      "appPerClick": 0,
+      "appPerSecs": 360,
+      "unlockIndex": 16,
+      "active": false
+    },
+    {
+      "id": "governmentJobs",
+      "name": "Apply to government jobs",
+      "cost": 20000,
+      "appPerClick": 60,
+      "appPerSecs": 600,
+      "unlockIndex": 17,
+      "active": false
+    },
+    {
+      "id": "worldwide",
+      "name": "Extend job search to the world",
+      "cost": 60000,
+      "appPerClick": 360,
+      "appPerSecs": 6800,
+      "unlockIndex": 18,
+      "active": false
+    },
+    {
+      "id": "airplaneMode",
+      "name": "Drop applications by planes",
+      "cost": 200000,
+      "appPerClick": 600,
+      "appPerSecs": 0,
+      "unlockIndex": 19,
+      "active": false
+    },
+    {
+      "id": "rocketMode",
+      "name": "Learn how to operate spaceships",
+      "cost": 400000,
+      "appPerClick": 0,
+      "appPerSecs": 0,
+      "unlockIndex": 20,
+      "active": false
+    },
+    {
+      "id": "bogosbinted",
+      "name": "Create an alien translator",
+      "cost": 400000,
+      "appPerClick": 0,
+      "appPerSecs": 0,
+      "unlockIndex": 21,
+      "active": false
+    },
+    {
+      "id": "galaxySearch",
+      "name": "Extend job search to the galaxy",
+      "cost": 400000,
+      "appPerClick": 8800,
+      "appPerSecs": 192000,
+      "unlockIndex": 22,
+      "active": false
+    },
+    {
+      "id": "teleportation",
+      "name": "Teleport applications to recruiters",
+      "cost": 1000000,
+      "appPerClick": 30000,
+      "appPerSecs": 0,
+      "unlockIndex": 23,
+      "active": false
+    },
+    {
+      "id": "timeTravel",
+      "name": "Learn TimeTravel",
+      "cost": 4000000,
+      "appPerClick": 0,
+      "appPerSecs": 0,
+      "unlockIndex": 24,
+      "active": false
+    },
+    {
+      "id": "blastToThePast",
+      "name": "Send application to the past",
+      "cost": 6000000,
+      "appPerClick": 60000,
+      "appPerSecs": 1800000,
+      "unlockIndex": 25,
+      "active": false
+    },
+    {
+      "id": "backToTheFuture",
+      "name": "Send application to the future",
+      "cost": 8000000,
+      "appPerClick": 100000,
+      "appPerSecs": 2000000,
+      "unlockIndex": 26,
+      "active": false
+    },
+    {
+      "id": "intergalactic",
+      "name": "Learn intergalactic travel",
+      "cost": 100000000,
+      "appPerClick": 0,
+      "appPerSecs": 0,
+      "unlockIndex": 27,
+      "active": false
+    },
+    {
+      "id": "intergalacticApply",
+      "name": "Apply across all galaxies",
+      "cost": 100000000,
+      "appPerClick": 200000,
+      "appPerSecs": 0,
+      "unlockIndex": 28,
+      "active": false
+    },
+    {
+      "id": "endOfTheUniverse",
+      "name": "Travel to the end of the universe",
+      "cost": 200000000,
+      "appPerClick": 0,
+      "appPerSecs": 0,
+      "unlockIndex": 29,
+      "active": false
+    },
+    {
+      "id": "endOfTheUniverse",
+      "name": "Travel to the end of the universe",
+      "cost": 200000000,
+      "appPerClick": 800000,
+      "appPerSecs": 8000000,
+      "unlockIndex": 30,
+      "active": false
+    },
+    {
+      "id": "finalAnswer",
+      "name": "An answer ?",
+      "cost": 1000000000,
+      "appPerClick": 0,
+      "appPerSecs": 0,
+      "unlockIndex": 31,
+      "active": false
+    }
+  ]
+}

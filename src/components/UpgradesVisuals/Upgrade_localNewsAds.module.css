@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.container {
+  @apply flex h-6 bg-sky-600;
+}
+
+.newsHeadline {
+  @apply bg-red-600 font-extrabold italic text-white px-4;
+}
+
+.text {
+  @apply text-white font-bold px-4 italic;
+}

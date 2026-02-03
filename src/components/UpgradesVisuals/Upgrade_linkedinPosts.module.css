@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+.container {
+  @apply p-3 w-fit flex flex-col border border-black/20 rounded-lg gap-2;
+}
+
+.btn {
+  @apply font-bold text-white px-4 py-2 text-lg rounded-3xl w-fit bg-[#0a66c2] my-2 self-end;
+}
+
+.description {
+  @apply font-normal text-gray-600 w-xs;
+}
+
+.title {
+  @apply font-medium text-lg leading-6;
+}
+
+.userBar {
+  @apply flex flex-col;
+}
+
+.userBarFirst {
+  @apply flex items-center gap-2;
+}
+
+.userBarFirst img {
+  @apply w-12 h-12;
+}
+
+.jobtitle {
+  @apply text-gray-600 text-sm;
+}
