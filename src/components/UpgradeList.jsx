@@ -12,17 +12,15 @@ export default function UpgradeList({ state, dispatch }) {
                 cost={upgrade.cost}
                 appPerClick={upgrade.appPerClick}
                 appPerSecs={upgrade.appPerSecs}
-              />
-              <button
+                description={upgrade.description}
+                state={state}
                 onClick={() =>
                   dispatch({
                     type: "buyUpgrade",
                     payload: upgrade.id,
                   })
                 }
-              >
-                Buy
-              </button>
+              />
             </div>
           );
       })}

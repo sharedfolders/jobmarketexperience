@@ -3,290 +3,244 @@
     {
       "id": "indeedApply",
       "name": "Apply on Indeed",
-      "cost": 20,
+      "description": "How to waste internet bandwidth.",
+      "cost": 15,
       "appPerClick": 1,
       "appPerSecs": 0,
-      "unlockIndex": 0,
-      "active": false
+      "unlockIndex": 0
     },
     {
       "id": "linkedinApply",
       "name": "Apply on LinkedIn",
-      "cost": 40,
+      "description": "How to waste electricity as well.",
+      "cost": 35,
       "appPerClick": 1,
-      "appPerSecs": 0,
-      "unlockIndex": 1,
-      "active": false
+      "appPerSecs": 1,
+      "unlockIndex": 1
+    },
+    {
+      "id": "cvRewrite",
+      "name": "Rewrite your CV (again)",
+      "description": "Maybe it's the font size.",
+      "cost": 75,
+      "appPerClick": 1,
+      "appPerSecs": 1,
+      "unlockIndex": 2
     },
     {
       "id": "personApply",
       "name": "Apply in person",
-      "cost": 90,
-      "appPerClick": 1,
-      "appPerSecs": 0,
-      "unlockIndex": 2,
-      "active": false
+      "description": "I need to learn tie knots.",
+      "cost": 150,
+      "appPerClick": 2,
+      "appPerSecs": 2,
+      "unlockIndex": 3
     },
     {
       "id": "plannedMails",
       "name": "Planned emails",
-      "cost": 150,
+      "description": "Unlimited snooze button glitch !",
+      "cost": 300,
       "appPerClick": 0,
       "appPerSecs": 4,
-      "unlockIndex": 3,
-      "active": false
+      "unlockIndex": 4
+    },
+    {
+      "id": "coverLetters",
+      "name": "Generic cover letters",
+      "description": "I have been passionate with selling yogurt since 9.",
+      "cost": 600,
+      "appPerClick": 1,
+      "appPerSecs": 6,
+      "unlockIndex": 5
     },
     {
       "id": "linkedinPosts",
-      "name": "Corporate linkedin posts",
-      "cost": 300,
-      "appPerClick": 4,
-      "appPerSecs": 0,
-      "unlockIndex": 4,
-      "active": false
+      "name": "Corporate LinkedIn posts",
+      "description": "What my marriage taught me about B2B sales.",
+      "cost": 1200,
+      "appPerClick": 2,
+      "appPerSecs": 8,
+      "unlockIndex": 6
     },
     {
-      "id": "localNewsAds",
+      "id": "localAds",
       "name": "Ads in local newspaper",
-      "cost": 400,
+      "description": "Oldhead method might be unpatched.",
+      "cost": 2500,
       "appPerClick": 0,
-      "appPerSecs": 4,
-      "unlockIndex": 5,
-      "active": false
+      "appPerSecs": 15,
+      "unlockIndex": 7
     },
     {
       "id": "jobDating",
-      "name": "Attend JobDating events",
-      "cost": 600,
-      "appPerClick": 8,
-      "appPerSecs": 0,
-      "unlockIndex": 6,
-      "active": false
+      "name": "Attend Job Dating events",
+      "description": "I REALLY need to learn tie knots.",
+      "cost": 5000,
+      "appPerClick": 3,
+      "appPerSecs": 18,
+      "unlockIndex": 8
     },
     {
       "id": "appSenders",
-      "name": "Hire an application sender",
-      "cost": 800,
+      "name": "Hire application senders",
+      "description": "How did they get a job before me ?",
+      "cost": 9000,
       "appPerClick": 0,
-      "appPerSecs": 16,
-      "unlockIndex": 7,
-      "active": false
+      "appPerSecs": 30,
+      "unlockIndex": 9
     },
     {
       "id": "internships",
       "name": "Apply to internships",
-      "cost": 1000,
-      "appPerClick": 16,
-      "appPerSecs": 8,
-      "unlockIndex": 8,
-      "active": false
+      "description": "I will work for FREE PLEASE HIRE ME.",
+      "cost": 18000,
+      "appPerClick": 4,
+      "appPerSecs": 45,
+      "unlockIndex": 10
     },
     {
       "id": "lyingSausage",
       "name": "Lie on your applications",
-      "cost": 1200,
-      "appPerClick": 10,
-      "appPerSecs": 10,
-      "unlockIndex": 9,
-      "active": false
+      "description": "I maybe have 3 PHD in atom physics.",
+      "cost": 35000,
+      "appPerClick": 6,
+      "appPerSecs": 70,
+      "unlockIndex": 11
+    },
+    {
+      "id": "headhunterSpam",
+      "name": "Spam headhunters",
+      "description": "3 emails per minutes EACH. They NEED to see my cover letter.",
+      "cost": 70000,
+      "appPerClick": 0,
+      "appPerSecs": 120,
+      "unlockIndex": 12
     },
     {
       "id": "regionalSearch",
-      "name": "Extend job search to the region",
-      "cost": 1400,
-      "appPerClick": 6,
-      "appPerSecs": 0,
-      "unlockIndex": 10,
-      "active": false
+      "name": "Extend search to the region",
+      "description": "I will drive 6 hours daily for a 9-5.",
+      "cost": 150000,
+      "appPerClick": 8,
+      "appPerSecs": 160,
+      "unlockIndex": 13
     },
     {
-      "id": "regionalAds",
-      "name": "Ads on regional TV channel",
-      "cost": 1800,
+      "id": "regionalTV",
+      "name": "Regional TV ads",
+      "description": "Do HRs still watch TV ?",
+      "cost": 300000,
       "appPerClick": 0,
-      "appPerSecs": 18,
-      "unlockIndex": 11,
-      "active": false
+      "appPerSecs": 300,
+      "unlockIndex": 14
     },
     {
       "id": "vibeSearching",
-      "name": "AI job searching assistant",
-      "cost": 2000,
+      "name": "AI job-search assistant",
+      "description": "Fired my assistant for this. Why can't i find a job ?",
+      "cost": 600000,
       "appPerClick": 0,
-      "appPerSecs": 60,
-      "unlockIndex": 12,
-      "active": false
-    },
-    {
-      "id": "ambidextrous",
-      "name": "Become ambidextrous",
-      "cost": 3000,
-      "appPerClick": 96,
-      "appPerSecs": 0,
-      "unlockIndex": 13,
-      "active": false
+      "appPerSecs": 650,
+      "unlockIndex": 15
     },
     {
       "id": "nationwide",
-      "name": "Extend job search to the country",
-      "cost": 4000,
-      "appPerClick": 84,
-      "appPerSecs": 0,
-      "unlockIndex": 14,
-      "active": false
+      "name": "Nationwide job search",
+      "description": "I will drive 9 hours daily for a 5-6.",
+      "cost": 1500000,
+      "appPerClick": 12,
+      "appPerSecs": 900,
+      "unlockIndex": 16
     },
     {
-      "id": "nationalAds",
-      "name": "Extend job search to the country",
-      "cost": 6000,
+      "id": "nationalTV",
+      "name": "National TV ads",
+      "description": "I should spend that money on Youtube ads next time.",
+      "cost": 4000000,
       "appPerClick": 0,
-      "appPerSecs": 120,
-      "unlockIndex": 15,
-      "active": false
+      "appPerSecs": 2200,
+      "unlockIndex": 17
     },
     {
-      "id": "illegalJobs",
-      "name": "Apply to illegal jobs",
-      "cost": 10000,
+      "id": "etsyWitches",
+      "name": "Pay Etsy witches",
+      "description": "Please curse recruiters so they hire me.",
+      "cost": 8000000,
       "appPerClick": 0,
-      "appPerSecs": 360,
-      "unlockIndex": 16,
-      "active": false
-    },
-    {
-      "id": "governmentJobs",
-      "name": "Apply to government jobs",
-      "cost": 20000,
-      "appPerClick": 60,
-      "appPerSecs": 600,
-      "unlockIndex": 17,
-      "active": false
+      "appPerSecs": 5200,
+      "unlockIndex": 18
     },
     {
       "id": "worldwide",
-      "name": "Extend job search to the world",
-      "cost": 60000,
-      "appPerClick": 360,
-      "appPerSecs": 6800,
-      "unlockIndex": 18,
-      "active": false
+      "name": "Worldwide job search",
+      "description": "I WILL fly for 19 hours just for 1 hour of work.",
+      "cost": 20000000,
+      "appPerClick": 20,
+      "appPerSecs": 8000,
+      "unlockIndex": 19
     },
     {
       "id": "airplaneMode",
-      "name": "Drop applications by planes",
-      "cost": 200000,
-      "appPerClick": 600,
-      "appPerSecs": 0,
-      "unlockIndex": 19,
-      "active": false
-    },
-    {
-      "id": "rocketMode",
-      "name": "Learn how to operate spaceships",
-      "cost": 400000,
+      "name": "Drop applications by plane",
+      "description": "Amazonian tribes may have an open position.",
+      "cost": 60000000,
       "appPerClick": 0,
-      "appPerSecs": 0,
-      "unlockIndex": 20,
-      "active": false
-    },
-    {
-      "id": "bogosbinted",
-      "name": "Create an alien translator",
-      "cost": 400000,
-      "appPerClick": 0,
-      "appPerSecs": 0,
-      "unlockIndex": 21,
-      "active": false
-    },
-    {
-      "id": "galaxySearch",
-      "name": "Extend job search to the galaxy",
-      "cost": 400000,
-      "appPerClick": 8800,
-      "appPerSecs": 192000,
-      "unlockIndex": 22,
-      "active": false
-    },
-    {
-      "id": "teleportation",
-      "name": "Teleport applications to recruiters",
-      "cost": 1000000,
-      "appPerClick": 30000,
-      "appPerSecs": 0,
-      "unlockIndex": 23,
-      "active": false
+      "appPerSecs": 16000,
+      "unlockIndex": 20
     },
     {
       "id": "timeTravel",
-      "name": "Learn TimeTravel",
-      "cost": 4000000,
+      "name": "Learn time travel",
+      "description": "I actually DO have 3 PHD in atom physics",
+      "cost": 150000000,
       "appPerClick": 0,
-      "appPerSecs": 0,
-      "unlockIndex": 24,
-      "active": false
+      "appPerSecs": 35000,
+      "unlockIndex": 21
     },
     {
-      "id": "blastToThePast",
-      "name": "Send application to the past",
-      "cost": 6000000,
-      "appPerClick": 60000,
-      "appPerSecs": 1800000,
-      "unlockIndex": 25,
-      "active": false
+      "id": "pastApps",
+      "name": "Send applications to the past",
+      "description": "Maybe the great depression was a hoax ?",
+      "cost": 300000000,
+      "appPerClick": 40,
+      "appPerSecs": 60000,
+      "unlockIndex": 22
     },
     {
-      "id": "backToTheFuture",
-      "name": "Send application to the future",
-      "cost": 8000000,
-      "appPerClick": 100000,
-      "appPerSecs": 2000000,
-      "unlockIndex": 26,
-      "active": false
+      "id": "futureApps",
+      "name": "Send applications to the future",
+      "description": "The great depression was NOT a hoax ?",
+      "cost": 600000000,
+      "appPerClick": 80,
+      "appPerSecs": 140000,
+      "unlockIndex": 23
     },
     {
-      "id": "intergalactic",
-      "name": "Learn intergalactic travel",
-      "cost": 100000000,
-      "appPerClick": 0,
-      "appPerSecs": 0,
-      "unlockIndex": 27,
-      "active": false
+      "id": "galacticSearch",
+      "name": "Intergalactic job search",
+      "description": "I'm pretty sure aliens are hiring.",
+      "cost": 1200000000,
+      "appPerClick": 150,
+      "appPerSecs": 420000,
+      "unlockIndex": 24
     },
     {
-      "id": "intergalacticApply",
-      "name": "Apply across all galaxies",
-      "cost": 100000000,
-      "appPerClick": 200000,
-      "appPerSecs": 0,
-      "unlockIndex": 28,
-      "active": false
-    },
-    {
-      "id": "endOfTheUniverse",
-      "name": "Travel to the end of the universe",
-      "cost": 200000000,
-      "appPerClick": 0,
-      "appPerSecs": 0,
-      "unlockIndex": 29,
-      "active": false
-    },
-    {
-      "id": "endOfTheUniverse",
-      "name": "Travel to the end of the universe",
-      "cost": 200000000,
-      "appPerClick": 800000,
-      "appPerSecs": 8000000,
-      "unlockIndex": 30,
-      "active": false
+      "id": "cosmicEntities",
+      "name": "Apply to cosmic entities",
+      "description": "Bogos binted ?.",
+      "cost": 2500000000,
+      "appPerClick": 300,
+      "appPerSecs": 1600000,
+      "unlockIndex": 25
     },
     {
       "id": "finalAnswer",
       "name": "An answer ?",
-      "cost": 1000000000,
+      "cost": 10000000000,
       "appPerClick": 0,
       "appPerSecs": 0,
-      "unlockIndex": 31,
-      "active": false
+      "unlockIndex": 26
     }
   ]
 }

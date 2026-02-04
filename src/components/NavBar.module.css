@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.container {
+  @apply flex justify-between px-32 gap-16 py-6;
+}
+
+.title {
+  @apply justify-center font-bold text-[#DFD0B8];
+}
+
+.nav {
+  @apply flex gap-8 content-end font-bold text-[#DFD0B8];
+}

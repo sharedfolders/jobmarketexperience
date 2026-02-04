@@ -1,13 +1,14 @@
 import { useReducer, useEffect } from "react";
+import styles from "./App.module.css";
 import UpgradeList from "./components/UpgradeList";
 import UpgradeVisualsBox from "./components/UpgradeVisualsBox";
-import Upgrade_linkedinApply from "./components/UpgradesVisuals/Upgrade_linkedinApply";
-import Upgrade_indeedApply from "./components/UpgradesVisuals/Upgrade_indeedApply";
-import Upgrade_plannedMails from "./components/UpgradesVisuals/Upgrade_plannedMails";
-import Upgrade_linkedinPosts from "./components/UpgradesVisuals/Upgrade_linkedinPosts";
-import Upgrade_localNewsAds from "./components/UpgradesVisuals/Upgrade_localNewsAds";
+import GameStats from "./components/GameStats";
+import ApplicationClicker from "./components/ApplicationClicker";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 const initialValues = {
+  totalJobApplication: 0,
   jobApplication: 0,
 
   appPerClick: 1,
@@ -27,6 +28,7 @@ function reducer(state, action) {
       return {
         ...state,
         jobApplication: state.jobApplication + state.appPerClick,
+        totalJobApplication: state.totalJobApplication + state.appPerClick,
       };
     }
 
@@ -34,6 +36,7 @@ function reducer(state, action) {
       return {
         ...state,
         jobApplication: state.jobApplication + state.appPerSecs,
+        totalJobApplication: state.totalJobApplication + state.appPerSecs,
       };
     }
 
@@ -87,19 +90,23 @@ function App() {
   }, []);
 
   return (
-    <>
-      <h1 onClick={() => dispatch({ type: "click" })}>
-        {state.jobApplication}
-      </h1>
-      <UpgradeList state={state} dispatch={dispatch} />
-      <UpgradeVisualsBox state={state} />
-
-      <Upgrade_linkedinApply />
-      <Upgrade_indeedApply />
-      <Upgrade_plannedMails />
-      <Upgrade_linkedinPosts />
-      <Upgrade_localNewsAds />
-    </>
+    <div className={styles.main}>
+      <NavBar />
+      <div className={styles.container}>
+        <GameStats state={state} />
+        <div className={styles.appColumns}>
+          <div className={styles.centerColumn}>
+            <ApplicationClicker
+              state={state}
+              onClick={() => dispatch({ type: "click" })}
+            />
+            <UpgradeList state={state} dispatch={dispatch} />
+          </div>
+          <UpgradeVisualsBox state={state} />
+        </div>
+      </div>
+      <Footer />
+    </div>
   );
 }
 

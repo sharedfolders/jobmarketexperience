@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.main {
+  @apply bg-[#222831] flex flex-col min-h-screen;
+}
+
+.container {
+  @apply bg-[#393E46] border-b-2 border-[#948979] pb-8;
+}
+
+.appColumns {
+  @apply grid grid-cols-3 gap-4 px-8;
+}
+
+.centerColumn {
+  @apply order-2;
+}

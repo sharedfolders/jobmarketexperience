@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Upgrade_plannedMails.module.css";
 
-export default function Upgrade_linkedinApply() {
+export default function Upgrade_plannedMails() {
   return (
     <div className={styles.container}>
       <div className={styles.description}>

@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.container {
+  @apply bg-[#DFD0B8] border-y-2 border-[#948979] flex justify-center gap-16 py-2 mb-8;
+}
+
+.container h3 {
+  @apply flex flex-col text-center font-light  text-[#222831];
+}
+
+.container h3 span {
+  @apply font-medium;
+}

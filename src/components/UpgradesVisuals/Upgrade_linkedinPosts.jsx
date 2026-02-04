@@ -1,6 +1,6 @@
 import styles from "./Upgrade_linkedinPosts.module.css";
 
-export default function Upgrade_linkedinApply() {
+export default function Upgrade_linkedinPosts() {
   return (
     <div className={styles.container}>
       <div className={styles.userBarFirst}>

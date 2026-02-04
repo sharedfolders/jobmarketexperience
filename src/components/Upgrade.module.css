@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.container {
+  @apply flex flex-col w-40 mx-auto gap-2 p-2 bg-[#DFD0B8] rounded-lg border-2 border-[#948979] shadow-md;
+}
+
+.name {
+  @apply font-medium text-[#222831] text-lg text-center;
+}
+
+.description {
+  @apply text-[#393E46] font-light text-sm text-center;
+}
+
+.advantages {
+  @apply font-medium text-[#222831];
+}
+
+.advantagesBlock {
+  @apply flex justify-around;
+}
+
+.disabled {
+  @apply opacity-40;
+}

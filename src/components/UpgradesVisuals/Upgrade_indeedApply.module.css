@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .container {
-  @apply p-3 w-fit flex flex-col border border-black/20 rounded-2xl;
+  @apply bg-white p-3 w-fit flex flex-col border border-black/20 rounded-2xl h-fit;
 }
 
 .btn {

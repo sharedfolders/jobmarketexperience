@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.container {
+  @apply my-8 grid gap-4 justify-center grid-cols-2;
+}

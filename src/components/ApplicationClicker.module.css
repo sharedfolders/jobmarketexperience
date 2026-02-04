@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.paperClicker {
+  @apply mx-auto aspect-210/297 h-[40vh] shadow-md bg-cover bg-center;
+}
+
+.container {
+  @apply flex flex-col text-center;
+}
