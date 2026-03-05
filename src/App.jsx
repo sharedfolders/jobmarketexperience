@@ -69,7 +69,7 @@ function App() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const res = await fetch("/upgrades.json");
+        const res = await fetch("upgrades.json");
         if (!res.ok) throw new Error("Something happened");
 
         const data = await res.json();
@@ -86,7 +86,7 @@ function App() {
       dispatch({ type: "tick" });
     }, 1000);
 
-    return clearInterval(() => interval);
+    return clearInterval(interval);
   }, []);
 
   return (
